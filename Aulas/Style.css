@@ -66,6 +66,10 @@ h2{
         flex-grow: 1;             /* Permitir aumentar o tamanho */
         flex-shrink: 1;           /* Permitir reduzir o tamanho */
     }
+    a{
+        text-decoration: none;     /* Tirar o sublinhado */
+        color: #000;
+    }
     
 }
 

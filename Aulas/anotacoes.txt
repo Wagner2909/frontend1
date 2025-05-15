@@ -26,7 +26,15 @@ camelCase   testeDeMesa
 snake_case  teste_de_mesa
 kebab-case  teste-de-mesa
 
+===========================================================
 
+site colors para paleta de cores com codigo hexadecimal
+site getbootstrap para icones gratuitos
+site gradients para gradiente de cores
+site google fonts para fontes de letras
+git downloads para instalar git local
+
+==========================================================
 
 
 
