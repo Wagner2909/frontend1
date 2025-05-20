@@ -1,5 +1,11 @@
 GIT: Software local que controla as alterações no código (versionamento)
+
 GitHub: Plataforma online que hospeda repositórios Git para fins de versionamento e colaboração em equipe.
+
+# Comandos uteis no CMD:
+cd [nome_da_pasta] permite navegar na pasta
+cd.. voltar na navegação entre pastas
+cls comando para limpar o terminal
 
 
 REPOSITÓRIO NOVO:
@@ -7,19 +13,19 @@ REPOSITÓRIO NOVO:
 # Inicializar um repositório local
 git init
 
-Adiciona todos os arquivos novos ou modificados do diretório atual à área de "staging", preparando-os para o commit.
+# Adiciona todos os arquivos novos ou modificados do diretório atual à área de "staging", preparando-os para o commit.
 git add .
 
-Cria o commit com os arquivos do staging
-git commit -m "Aula 14/05/2025: Conteúdo da aula"
+# Cria o commit com os arquivos do staging (empacotar)
+git commit -m "Aula 14/05/2025: Aula pratica sobre versionamento de codigo"
 
-Renomeia o branch atual para "main"
+# Renomeia o branch (ramificação) atual para "main" (opcional)
 git branch -M main
 
-Adiciona um repositório remoto (no GitHub) chamado "origin" com o URL especificado.
+# Adiciona um repositório remoto (no GitHub) chamado "origin" com o URL especificado.
 git remote add origin https://github.com/luisribeiro1/frontend.git
 
-Envia os commits locais para o repositório remoto (origin) no branch main, e configura o tracking para futuros pushes.
+# Envia os commits locais para o repositório remoto (origin) no branch main, e configura o tracking para futuros pushes.
 git push -u origin main
 
 
@@ -27,13 +33,15 @@ git push -u origin main
 ATUALIZAÇÕES:
 
 git add .
-git commit -m "Aula 14/05/2025: Conteúdo da aula"
+git commit -m "Aula 14/05/2025: Inclusão dos links na home e formatação no CSS"
 git push
 
 
 PARA USAR EM OUTRO COMPUTADOR:
 
+# Clonar a estrutura do repositorio
 git clone https://github.com/luisribeiro1/frontend.git
+# Puxar os conteudos do repositorio remoto para o local
 git pull origin main
 Seguir os passos descritos em Atualizações.
 

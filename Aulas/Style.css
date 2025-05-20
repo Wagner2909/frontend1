@@ -25,6 +25,16 @@ footer{
     text-align: center;
     color: #777;                
 }
+
+/* Formatação generica para os links */
+a{
+    text-decoration: none;        /* Retira o sublinhado dos links */
+    color: #492291;             /* Altera a cor do link */ 
+}
+a:hover{
+    text-decoration: underline;    /* Volta o sublinhado quando passar o mouse em cima */
+}
+
 /* Formatação da Home */
 
 main{
@@ -131,3 +141,35 @@ h2{
         background-color: #000;    /* Cor para o tiktok */
     }
 }
+
+/* Link voltar ao rodapé das páginas */
+.voltar{
+    text-align: center;
+    margin-top: 20px;
+ }
+
+ /* Formatação do grid de clínica */
+.grid-clinica{
+    display: flex;                     /* Opção por layout em grid (grade). o Padrão para o display é block */
+    justify-content: space-between;    /* Alinha pelas margens externas (direita e esquerda) */
+    gap:1.5rem;
+    align-items: flex-start;
+    div{
+        flex-grow: 1;                   /* Permite expandir a largura */
+        flex-shrink: 1;                 /* Permite reduzir a largura */
+        flex-basis: 300px;              /* tamanho inicial */
+    }
+    img{
+        width: 100%;                     /* imagem responsiva */
+    }
+    h2{
+        text-align: start;               /* alinha a esquerda */
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+    p{
+        line-height: 150%;                /* altura da linha ou espaçamento entre linhas */
+        margin-bottom: 15px;              /* margem inferior */ 
+    }
+}
+

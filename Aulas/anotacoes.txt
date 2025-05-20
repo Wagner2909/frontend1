@@ -36,7 +36,8 @@ git downloads para instalar git local
 
 ==========================================================
 
-
+site origamid.com para o recurso de flexbox
+site httpstatus.com para referencia de codigos de status
 
 
 
