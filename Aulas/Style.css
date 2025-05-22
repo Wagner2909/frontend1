@@ -171,5 +171,30 @@ h2{
         line-height: 150%;                /* altura da linha ou espaçamento entre linhas */
         margin-bottom: 15px;              /* margem inferior */ 
     }
+    ul,ol{
+        padding-left: 20px;               /* alinha o texto/marcação para esquerda */
+        list-style: square;               /* altera a formatação da marcação */
+        li{
+            line-height: 150%;            /* espaçamento entre as linhas do texto */
+        }
+                   
+    }
+}
+
+/* Formatação do grid de especialidades */
+.grid-especialidades{
+    display: flex;                /* Flexbox */
+    flex-wrap: wrap;              /* Permitir a quebra de linha dos elementos */
+    gap: 25px;                    /* Espacamento entre os elementos */
+    *{
+        flex-basis: 30%;          /* Tamanho inicial para o elemento filho */
+        flex-grow: 1;             /* Permitir aumentar o tamanho */
+        flex-shrink: 1;           /* Permitir reduzir o tamanho */
+    }
+    a{
+        text-decoration: none;     /* Tirar o sublinhado */
+        color: #000;
+    }
+    
 }
 
