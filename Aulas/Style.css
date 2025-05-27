@@ -198,3 +198,84 @@ h2{
     
 }
 
+/* Formatação das tabelas todas */
+table{
+    width: 100%;
+    border-collapse: collapse;      /* junta as bordas em uma só */     
+}
+th{
+   text-align: start;               /* alinhamento a esquerda */
+      
+}
+
+/* Formatação tabelas especificas */
+/* Formatação Tabela 1 */
+.tabela1 th{
+ background-color: #aaa;
+ border: 2px solid #aaa;
+ padding: 8px;
+}
+.tabela1 td{
+    border: 2px solid #ccc;
+    padding: 8px;
+}
+.tabela1 th:nth-child(3),
+.tabela1 td:nth-child(3){
+    text-align: end;
+    font-weight: 500;
+}
+.tabela1 th:nth-child(4),
+.tabela1 td:nth-child(4){
+    text-align: center;
+    font-weight: 500;
+}
+.tabela1 tr:nth-child(even){        /* (even) é o mesmo que par e (odd) é o mesmo que impar */
+    color: green;
+}
+
+/* Formatação Tabela 2 */
+.tabela2 th{
+    border-bottom: 2px solid #aaa;
+    padding: 4px;
+}
+.tabela2 td{
+    border-bottom: 2px solid #ccc;
+    padding: 4px;
+}
+.tabela2 th:nth-child(3),
+.tabela2 td:nth-child(3){
+    text-align: end;
+    font-weight: 500;
+}
+.tabela2 th:nth-child(4),
+.tabela2 td:nth-child(4){
+    text-align: center;
+    font-weight: 500;
+}
+   
+/* Formatação Tabela 3 */
+.tabela3 th{
+    background-color: #aaa;
+    border: 2px solid #aaa;
+    padding: 2px;
+}
+.tabela3 td{
+    border: 2x solid #ccc;
+    padding: 2px;
+}
+.tabela3 th:nth-child(3),
+.tabela3 td:nth-child(3){
+    text-align: end;
+    font-weight: 500;
+}
+.tabela3 th:nth-child(4),
+.tabela3 td:nth-child(4){
+    text-align: center;
+    font-weight: 500;
+}
+.tabela3 tr:nth-child(even){        /* (even) é o mesmo que par e (odd) é o mesmo que impar */
+    background-color: #aaa; 
+    border: 2px solid #aaa;
+}
+
+
